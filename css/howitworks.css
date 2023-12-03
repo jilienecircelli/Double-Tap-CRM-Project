@@ -1,0 +1,134 @@
+.container { 
+    display: grid;
+    display: flexbox;
+    grid-template-columns: repaet(4,1fr);
+    grid-template-rows: 10%vh 2fr 1fr 2fr 1fr 2fr 1fr;
+    gap: 2% 0%;
+    grid-auto-flow: row;
+    grid-template-areas:
+    "navbar navbar navbar navbar"
+    "focus focus image image"
+    ". how-it-works how-it-works ."
+    ". image-2 info ."
+    ". lor lor ."
+    ". image-3 get-paid ."
+    "footer footer footer footer";
+}
+
+.navbar { 
+    display: flex;
+    grid-area: navbar;
+    justify-content: space-evenly;
+    color: blue;
+}
+
+.nav-link {
+    display: flex;
+    grid-area: navbar;
+    justify-content: space-evenly;
+}
+
+.button-1 {
+    grid-area: navbar;
+}
+
+.list-1 {
+    display: flex;
+}
+
+.focus { 
+    grid-area: focus;
+    height: 50vh;
+    padding-top: 10%;
+}
+
+.dot-black {
+    height: 8px;
+    width: 8px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.image { 
+    display: flex;
+    grid-area: image;
+    height: 50vh;
+    padding-top: 10%;
+    justify-content: center;
+}
+
+.how-it-works { 
+    grid-area: how-it-works;
+    text-align: center;
+    border-top: 1px solid lightgray;
+    padding-top: 5%;
+    padding-inline: 20%;
+}
+
+.image-2 { 
+    display: flex;
+    grid-area: image-2;
+    border: 1px solid lightgray;
+    border-radius: 2%;
+    height: fit-content;
+    justify-content: left;
+
+}
+
+.info { 
+    grid-area: info;
+    border: 1px solid lightgray;
+    background-color: blue;
+    border-radius: 2%;
+    color: white;
+    height: fit-col;
+    text-align: center;
+    padding-top: 30%;
+    padding-inline: 10%;
+}
+
+.lor { 
+    display: flex;
+    grid-area: lor;
+    padding-inline: 30%;
+    text-align: center;
+}
+
+.image-3 { 
+    display:flex;
+    grid-area: image-3;
+    height: 30vh;
+    justify-content: left;
+}
+
+.get-paid { 
+    grid-area: get-paid;
+    border: 1px solid lightgray;
+    border-radius: 2%;
+    background-color: blue;
+    color: white;
+    height: fit-col;
+    text-align: center;
+    padding-top: 10%;
+    padding-inline: 10%;
+}
+
+.footer { 
+    grid-area: footer;
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+
+.list-2 {
+    display: flex;
+}
+
+.dot-white {
+    height: 8px;
+    width: 8px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+}
