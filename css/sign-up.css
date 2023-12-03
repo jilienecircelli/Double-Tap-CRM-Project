@@ -1,0 +1,46 @@
+h1{
+    justify-content: center;
+}
+
+
+.image-container {
+    position: relative;
+    text-align: center;
+}
+
+.centered-image {
+    max-width: 50%;
+    max-height: 50%;
+    position: absolute;
+    /* width: auto;
+    height: auto;
+    top: 50%;
+    left: 50%; */
+}
+
+.container-social{
+    display: flex;
+    justify-content: space-around;
+}
+
+.form-group{
+    margin-bottom: 40px;
+}
+
+/* .bi-person{
+    position: absolute;
+    left: 5.2em;
+    top: 2.9em;
+} */
+
+.custom-input{
+    background-color: none;
+    border: none;
+    width: 100%;
+    height: auto;
+}
+
+.custom-form-container{
+    background-color: white;
+
+}

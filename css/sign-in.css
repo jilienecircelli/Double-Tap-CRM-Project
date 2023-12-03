@@ -1,0 +1,56 @@
+h1{
+    justify-content: center;
+}
+
+
+.image-container {
+    position: relative;
+    text-align: center;
+}
+
+.blue-bg {
+    position: absolute;
+    right: 41.8%;
+    max-height: 100vh;
+    height: 100vh;
+    background: #0850F8;
+    clip-path: ellipse(840px 1040px at 13% -13%);
+}
+
+.new-account{
+    align-content: center;
+}
+
+.container-social{
+    display: flex;
+    justify-content: space-around;
+}
+
+.form-group{
+    margin-bottom: 40px;
+}
+
+
+.sign-in-text{
+    position:relative;
+    left: 145%
+}
+
+.account-setup{
+    color: white;
+    font-weight:400;
+    text-align:center;
+    margin-top: .5em;
+}
+
+.custom-input{
+    background-color: none;
+    border: none;
+    width: 100%;
+    height: auto;
+}
+
+.custom-form-container{
+    background-color: white;
+
+}
